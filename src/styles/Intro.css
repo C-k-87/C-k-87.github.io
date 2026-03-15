@@ -3,8 +3,8 @@
 }
 
 .profile-picture{
-    width: 50vh;
-    height: 50vh;
+    width: 50vw;
+    height: 50vw;
     border-radius: 50%;
     overflow: hidden;
 }
