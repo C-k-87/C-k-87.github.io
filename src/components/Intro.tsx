@@ -24,7 +24,7 @@ function experienceCards() {
 
 function desktopCard() {
   return (
-    <Box width={"75%"} display={{ initial: "none", md: "block" }}>
+    <Box width={"85%"} display={{ initial: "none", md: "block" }}>
       <Grid
         columns={"65% 35%"}
         rows={"1"}
@@ -32,8 +32,8 @@ function desktopCard() {
         className="intro-bg"
       >
         <Box p={"5"}>
-          <Heading size={"5"} mb={"4"}>
-            Work Exposure
+          <Heading mb={"4"}>
+            Work and Project Exposure
           </Heading>
           <Box>{experienceCards()}</Box>
         </Box>
@@ -52,7 +52,7 @@ function mobileCard() {
       display={{ initial: "block", md: "none" }}
       className="intro-bg"
     >
-      <Flex p={"3"} direction={"column"} align={"center"} gap={"2"}>
+      <Flex direction={"column"} align={"center"} gap={"2"}>
         <Box m={"4"} className="profile-picture">
           <img src={hero_mobile} className="image-cover" />
         </Box>

@@ -6,11 +6,11 @@ export default function Navbar(){
         <>
         <Box className="floating-nav" display={{initial:"none", sm:"block"}}>
             <Flex p={"4"} direction={"row"} justify={"between"}>
-                <Button m={"2"} variant="ghost" color="gray">Intro</Button>
-                <Button m={"2"} variant="ghost" color="gray">About</Button>
-                <Button m={"2"} variant="ghost" color="gray">Projects</Button>
-                <Button m={"2"} variant="ghost" color="gray">Skills</Button>
-                <Button m={"2"} variant="ghost" color="gray">Contact</Button>
+                <Button m={"2"} variant="ghost" color="gray"><strong>Intro</strong></Button>
+                <Button m={"2"} variant="ghost" color="gray"><strong>About</strong></Button>
+                <Button m={"2"} variant="ghost" color="gray"><strong>Projects</strong></Button>
+                <Button m={"2"} variant="ghost" color="gray"><strong>Skills</strong></Button>
+                <Button m={"2"} variant="ghost" color="gray"><strong>Contact</strong></Button>
             </Flex>
         </Box>
         </>

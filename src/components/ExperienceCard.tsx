@@ -9,11 +9,13 @@ export default function ExperienceCard({
 }: ExperienceType) {
   return (
     <Card>
-      <Grid columns={{ sm: "1", md: "30% 70%" }} rows={"1"}>
-        <Box className="banner">
-          <img src={image} className="image-cover" />
-        </Box>
-        <Flex direction={"column"} p={"4"} justify={"start"}>
+      <Grid columns={{ sm: "1", md: "35% 65%" }} p={{sm:"0", md:"4"}} rows={"1"} align={"center"} justifyItems={"stretch"}>
+        <Flex justify={"center"}>
+            <Box m={{initial:"4", md:"-1"}} width={{initial:"50%",md:"100%"}}>
+                <img src={image} className="image-cover" style={{border:"solid", borderColor:"gray"}}/>
+            </Box>
+        </Flex>
+        <Flex direction={"column"} p={{initial:"0", md:"5"}} justify={"start"}>
           <Heading color="crimson" align={{ initial: "center", md: "right" }}>
             {heading}
           </Heading>
@@ -25,7 +27,7 @@ export default function ExperienceCard({
             </ul>
           </Text>
           <Flex direction={"row"} justify={{ initial: "center", md: "end" }}>
-            <Text weight={"bold"} size={"1"} color="violet">
+            <Text weight={"bold"} size={"1"} color="amber">
               {date}
             </Text>
           </Flex>

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://C-k-87.github.io/ck-87-portfolio/",
+  "homepage": "https://c-k-87.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

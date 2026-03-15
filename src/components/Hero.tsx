@@ -9,7 +9,7 @@ export default function Hero(){
 
                 <Heading className={"glow giant"}>Charith Kularatne</Heading>
 
-                <Text size={{initial:"1",sm:"3"}} weight="medium" color="iris">- Software Engineer | AI/ML Researcher -</Text>
+                <Text size={{initial:"1",sm:"3"}} weight="medium" color="iris">── Software Engineer | AI/ML Researcher ──</Text>
                 
                 <Box pt={"5"} width={{initial:"80%", sm:"50%"}} style={{ textAlign: "center" }}>
                     <Text size={{initial:"1",sm:"3"}}>Creating scalable and maintainable technologies adapting to modern trends and technologies</Text>
@@ -23,7 +23,7 @@ export default function Hero(){
                 </Flex>
                 
                 <Flex pt={"5"} direction={"row"} gap={"4"} justify={"center"}>
-                    <Button color="plum" className="glow-btn"  size={{initial:"2", sm:"3"}}>{"View Projects =>"}</Button>
+                    <Button color="plum" className="glow-btn"  size={{initial:"2", sm:"3"}}>{"View Projects ➤"}</Button>
                     <Button color="tomato"  size={{initial:"2", sm:"3"}}>Get in Touch</Button>
                 </Flex>
             </Flex>
