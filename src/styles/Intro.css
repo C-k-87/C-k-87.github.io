@@ -3,15 +3,8 @@
 }
 
 .profile-picture{
-    width: 20vh;
-    height: 20vh;
+    width: 50vh;
+    height: 50vh;
     border-radius: 50%;
     overflow: hidden;
-}
-
-@media (max-width: 1024px) {
-    .profile-picture{
-        width: 50%;
-        height: 50%;
-    }
 }

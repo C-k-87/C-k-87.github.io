@@ -48,9 +48,11 @@ function desktopCard() {
 function mobileCard() {
   return (
     <Box
-      width={"75%"}
-      display={{ initial: "block", md: "none" }}
-      className="intro-bg"
+        pb={"4"}
+        pt={"2"}
+        width={"75%"}
+        display={{ initial: "block", md: "none" }}
+        className="intro-bg"
     >
       <Flex direction={"column"} align={"center"} gap={"2"}>
         <Box m={"4"} className="profile-picture">
@@ -58,7 +60,7 @@ function mobileCard() {
         </Box>
         <Box maxWidth={"90%"}>
           <Heading size={"4"} mb={"4"} align={"center"}>
-            Exposure
+            Work and Project Exposure
           </Heading>
           {experienceCards()}
         </Box>
@@ -69,7 +71,7 @@ function mobileCard() {
 
 export default function Intro() {
   return (
-    <Section>
+    <Section p={"2"}>
       <Flex justify={"center"}>
         {desktopCard()}
         {mobileCard()}
