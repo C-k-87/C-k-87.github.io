@@ -1,0 +1,19 @@
+/* NAVBAR STYLES */
+.floating-nav {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 50%;
+  max-width: 900px;
+
+  border-radius: 20px;
+
+  background: rgba(10, 10, 20, 0.37);
+  backdrop-filter: blur(10px);
+
+  box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+
+  z-index: 1000;
+}

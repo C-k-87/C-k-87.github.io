@@ -1,0 +1,29 @@
+/* HERO STYLES */
+.cover{
+    padding: 30px;
+    text-align: center;
+}
+
+.glow {    
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-shadow:
+        -50px 0 90px #e238f8,
+        0 0 20px #86047c,
+        50px 0 90px #01d2f7;
+}
+
+.glow-btn {
+    color: white;
+    box-shadow:
+        -10px 0 30px #e238f863,
+        0 0 20px #86047b6c,
+        10px 0 30px #01d2f76e;
+}
+
+.subtitle{
+    padding: 8px 20px;
+    color: #a7eaff;
+    background-color: #1b001941;
+}
