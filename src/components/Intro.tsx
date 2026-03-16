@@ -5,7 +5,7 @@ import { experience } from "../data/experience";
 import ExperienceCard from "./ExperienceCard";
 
 import hero_desktop from "../assets/hero_desktop.png";
-import hero_mobile from "../assets/hero_mobile.jpg";
+import hero_mobile from "../assets/hero_mobile.png";
 
 function experienceCards() {
   return (
@@ -71,7 +71,7 @@ function mobileCard() {
 
 export default function Intro() {
   return (
-    <Section p={"2"}>
+    <Section id="about" p={"2"}>
       <Flex justify={"center"}>
         {desktopCard()}
         {mobileCard()}

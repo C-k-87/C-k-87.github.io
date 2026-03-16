@@ -18,7 +18,7 @@ export const experience: ExperienceType[] = [
             "Completed Project SUMMIT"
         ],
         image:syscolabslogo,
-        date:"MAY 2024 - NOV 2024"
+        date:"May 2024 - Nov 2024"
     },
     {
         heading: "University of Ruhuna",
@@ -28,6 +28,6 @@ export const experience: ExperienceType[] = [
             "Leadership Training and Colours Holder as a member of the University Basketball Team"
         ],
         image:uorlogo,
-        date:"MAR 2021 - 2026(Expected)"
+        date:"Mar 2021 - 2026 (Expected)"
     },
 ]

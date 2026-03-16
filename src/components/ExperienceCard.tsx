@@ -9,25 +9,42 @@ export default function ExperienceCard({
 }: ExperienceType) {
   return (
     <Card>
-      <Grid columns={{ sm: "1", md: "35% 65%" }} p={{sm:"0", md:"4"}} rows={"1"} align={"center"} justifyItems={"stretch"}>
+      <Grid
+        columns={{ sm: "1", md: "35% 65%" }}
+        p={{ sm: "0", md: "4" }}
+        rows={"1"}
+        align={"center"}
+        justifyItems={"stretch"}
+      >
         <Flex justify={"center"}>
-            <Box m={{initial:"4", md:"-1"}} width={{initial:"50%",md:"100%"}}>
-                <img src={image} className="image-cover" style={{border:"solid", borderColor:"gray"}}/>
-            </Box>
+          <Box
+            m={{ initial: "4", md: "-1" }}
+            width={{ initial: "50%", md: "100%" }}
+          >
+            <img
+              src={image}
+              className="image-cover"
+              style={{ border: "solid", borderColor: "gray" }}
+            />
+          </Box>
         </Flex>
-        <Flex direction={"column"} p={{initial:"0", md:"5"}} justify={"start"}>
-          <Heading color="crimson" align={{ initial: "center", md: "right" }}>
+        <Flex
+          direction={"column"}
+          p={{ initial: "0", md: "5" }}
+          justify={"start"}
+        >
+          <Heading color="crimson" align={{ initial: "center", md: "right" }} size={{initial:"2", md:"7"}}>
             {heading}
           </Heading>
-          <Text>
+          <Text size={{initial:"1", md:"3"}}>
             <ul>
               {content.map((c) => (
                 <li>{c}</li>
               ))}
             </ul>
           </Text>
-          <Flex direction={"row"} justify={{ initial: "center", md: "end" }}>
-            <Text weight={"bold"} size={"1"} color="amber">
+          <Flex pt={"3"} direction={"row"} justify={{ initial: "center", md: "end" }}>
+            <Text weight={"bold"} size={{initial:"1", md:"3"}} color="amber">
               {date}
             </Text>
           </Flex>

@@ -1,5 +1,7 @@
 .intro-bg{
     background-color: rgba(59, 59, 59, 0.226);
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .profile-picture{

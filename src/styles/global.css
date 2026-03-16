@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .bg {
     position: relative;
 }
@@ -16,7 +20,7 @@ body {
     background-size: cover;
     background-image: url("../assets/pattern.png");
 
-    opacity: 0.05;
+    opacity: 0.07;
     z-index: -1;
 }
 /* FONT SIZE STYLES */
@@ -51,8 +55,10 @@ body {
         margin-bottom: 20px;
     }
 
-    .banner {
-        height: 20px;
+    .image-cover {
+        height: 1px;
+        width: 1px;
+        object-fit: contain;
     }
 }
 

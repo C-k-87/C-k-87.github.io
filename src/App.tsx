@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Intro from './components/Intro';
 import Navbar from './components/Navbar'
 import Featured from './components/Featured';
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
         <Hero />
         <Intro />
         <Featured />
+        <Footer />
         </>
     )
 }
