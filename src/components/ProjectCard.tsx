@@ -9,6 +9,7 @@ export default function ProjectCard({
   content,
   tech,
   image,
+  git
 }: ProjectType) {
   return (
     <>
@@ -20,7 +21,7 @@ export default function ProjectCard({
             width={"auto"}
             justifyItems={"center"}
           >
-            <Box className={"banner"}>
+            <Box className={"banner rounded"}>
               <img src={image} className="image-cover"></img>
             </Box>
             <Flex direction={"column"} p={"4"} justify={"center"}>
@@ -41,15 +42,25 @@ export default function ProjectCard({
                     />
                   ))}
                 </Flex>
-                <Flex direction={"column"} justify={"end"}>
-                  <Heading
+                <Flex direction={"column"}>
+                  {git ? <Heading
+                    mt="4"
+                    mb="2"
+                    size="7"
+                    align={{ initial: "center", md: "right" }}
+                    className="glow"
+                  >
+                    <a href={git}>{title}</a>
+                  </Heading>
+                  : <Heading
                     mt="4"
                     mb="2"
                     size="7"
                     align={{ initial: "center", md: "right" }}
                   >
                     {title}
-                  </Heading>
+                    </Heading>
+                  }
                   <Text
                     mb={"4"}
                     weight={"medium"}
@@ -76,9 +87,10 @@ export default function ProjectCard({
                 </Flex>
                 </Flex>
               </Flex>
-
-              <Box className="justify" p={{ initial: "1", md: "3" }}>
-                {content}
+              <Box p={{ initial: "1", md: "3" }}  className="justify">
+                <Text>
+                  {content}
+                </Text>
               </Box>
             </Flex>
           </Grid>

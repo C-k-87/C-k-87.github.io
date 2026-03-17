@@ -1,4 +1,12 @@
-import { Flex, Heading, Section, Text, Box, Button, Link } from "@radix-ui/themes";
+import {
+  Flex,
+  Heading,
+  Section,
+  Text,
+  Box,
+  Button,
+  Link,
+} from "@radix-ui/themes";
 import "../styles/Hero.css";
 
 export default function Hero() {
@@ -32,7 +40,7 @@ export default function Hero() {
             Node,js
           </Button>
           <Button color="purple" size={{ initial: "1", sm: "2" }}>
-            Java
+            Spring Boot
           </Button>
           <Button color="pink" size={{ initial: "1", sm: "2" }}>
             Python
@@ -40,20 +48,20 @@ export default function Hero() {
         </Flex>
 
         <Flex pt={"5"} direction={"row"} gap={"4"} justify={"center"}>
-          <Button
-            color="plum"
-            className="glow-btn"
-            size={{ initial: "2", sm: "3" }}
-          >
-            <Link href="#projects">
-                "View Projects ➤"
-            </Link>
-          </Button>
-          <Button color="tomato" size={{ initial: "2", sm: "3" }}>
-            <Link href="#contact">
-                Get in Touch
-            </Link>
-          </Button>
+          <Link href="#projects">
+            <Button
+              color="plum"
+              className="glow-btn"
+              size={{ initial: "2", sm: "3" }}
+            >
+              "View Projects ➤"
+            </Button>
+          </Link>
+          <Link href="#contact">
+            <Button color="tomato" size={{ initial: "2", sm: "3" }}>
+              Get in Touch
+            </Button>
+          </Link>
         </Flex>
       </Flex>
     </Section>

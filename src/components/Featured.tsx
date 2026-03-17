@@ -14,6 +14,7 @@ export default function Featured(){
                         image={project.image}
                         tech={project.tech}
                         content={project.content}
+                        git={project.git}
                     />
                 ))}
             </Flex>

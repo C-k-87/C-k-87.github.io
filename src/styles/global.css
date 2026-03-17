@@ -40,6 +40,8 @@ html {
     text-justify: inter-word;
 }
 
+
+
 @media (max-width: 1024px) {
     .giant{
         font-size: 4rem;

@@ -10,26 +10,26 @@ export default function Navbar() {
           <Flex ml="4" width={"4.5%"} justify={"center"}>
             <img src={icon} width={"100%"} />
           </Flex>
-          <Button m={"2"} variant="soft" color="gray">
-            <Link href="#hero">
-                <strong>Intro</strong>
-            </Link>
-          </Button>
-          <Button m={"2"} variant="soft" color="gray">
-            <Link href="#about">
-                <strong>About</strong>
-            </Link>
-          </Button>
-          <Button m={"2"} variant="soft" color="gray">
-            <Link href="#projects">
-                <strong>Projects</strong>
-            </Link>
-          </Button>
-          <Button m={"2"} variant="soft" color="gray">
-            <Link href="#contact">
-                <strong>Contact</strong>
-            </Link>
-          </Button>
+          <Link href="#hero">
+            <Button m={"2"} variant="soft" color="gray">
+              <strong>Intro</strong>
+            </Button>
+          </Link>
+          <Link href="#about">
+            <Button m={"2"} variant="soft" color="gray">
+              <strong>About</strong>
+            </Button>
+          </Link>
+          <Link href="#projects">
+            <Button m={"2"} variant="soft" color="gray">
+              <strong>Projects</strong>
+            </Button>
+          </Link>
+          <Link href="#contact">
+            <Button m={"2"} variant="soft" color="gray">
+              <strong>Contact</strong>
+            </Button>
+          </Link>
         </Flex>
       </Box>
     </>
